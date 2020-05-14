@@ -1,5 +1,5 @@
-# excel-vba-automation
-Excel VBA
+
+#Excel VBA
 
 
 ```VBA
@@ -22,6 +22,7 @@ Sub del_unnecessary()
     Next x
 End Sub
 
+Rem copy data to previous row, col 2, and delete copied row
 
 Sub row_to_col()
     last_row = Cells(Rows.Count, 1).End(xlUp).Row
