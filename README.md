@@ -2,8 +2,7 @@
 Excel VBA
 
 
-
-
+```VBA
 Rem delete unnecessary rows
 
 Sub del_unnecessary()
@@ -35,3 +34,4 @@ Sub row_to_col()
     End If
     Next
 End Sub
+```
